@@ -1,0 +1,136 @@
+.mainDiv {
+  background-color: #ede7f6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.title {
+  width: 40%;
+  border: 1px solid purple;
+  border-radius: 10px;
+  padding: 12px 10px;
+  margin: 10px 0;
+  outline: none;
+}
+
+.note {
+  width: 40%;
+  border: 1px solid purple;
+  border-radius: 10px;
+  padding: 12px 10px;
+  margin: 10px 0;
+  outline: none;
+}
+
+.colorSave {
+  width: 40%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 0 10px;
+}
+
+.colorSave button {
+  border: 1px solid purple;
+  background-color: rgb(126, 87, 194);
+  color: white;
+  height: 40px;
+  padding: 10px 15px;
+  border-radius: 10px;
+  margin: 3px;
+}
+
+.colors {
+  gap: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.color1 {
+  width: 50px;
+  height: 50px;
+  background-color: rgba(240, 98, 146);
+  border-radius: 50%;
+}
+
+.color2 {
+  width: 50px;
+  height: 50px;
+  background-color: rgba(186, 104, 200);
+  border-radius: 50%;
+}
+
+.color3 {
+  width: 50px;
+  height: 50px;
+  background-color: rgba(79, 195, 247);
+  border-radius: 50%;
+}
+
+.color4 {
+  width: 50px;
+  height: 50px;
+  background-color: rgba(255, 213, 79);
+  border-radius: 50%;
+}
+
+.color5 {
+  width: 50px;
+  height: 50px;
+  background-color: rgba(174, 213, 129);
+  border-radius: 50%;
+}
+
+.search {
+  width: 40%;
+  border: 1px solid purple;
+  border-radius: 10px;
+  padding: 12px 10px;
+  margin: 10px 0;
+  outline: none;
+}
+
+.cards {
+  width: 60%;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 30px;
+  gap: 20px;
+}
+
+.card {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .card {
+    width: calc((100% - 20px) / 2);
+  }
+}
+@media (min-width: 992px) {
+  .cards {
+    gap: 10px;
+  }
+  .card {
+    width: calc((100% - 20px) / 3);
+  }
+}
+@media (min-width: 1400px) {
+  .cards {
+    gap: 20px;
+  }
+
+  .card {
+    width: calc((100% - 40px) / 3);
+  }
+}
+
+.color-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
